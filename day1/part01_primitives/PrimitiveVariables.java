@@ -4,35 +4,42 @@ public class PrimitiveVariables {
 
     public static void main(String[] args) {
 
-        // TODO 1a: declare an int value and do not initialize it yet:
-        //   int a;
+        // declare an int value and do not initialize it yet:
+        int a;
 
         
-        // TODO 1b: declare and inititalize another int. Give your first int a value
-        //   a = 7
-        //   int b = 2;
+        // declare and initialize another int. Give your first int a value
+        a = 7;
+        int b = 2;
         
 
-        // TODO 2: print integer division result (a / b) with a label
-        
+        // print integer division result (a / b) with a label
+        System.out.println("a / b = " + (a / b));
 
-        // TODO 3: print double division result ((double) a / b) with a label
-        
+        // print double division result ((double) a / b) with a label
+        System.out.println("(double) a / b = " + (double) a / b);
 
-        // TODO 4: declare a double named price and an int named quantity
+        // declare a double named price and an int named quantity
         //         initialize them to any values you choose
+        double price = 100.0;
+        int quantity = 4;
         
         
-        // TODO 5: compute total cost (double) and print it with a label
+        // compute total cost (double) and print it with a label
+        System.out.println("(double) price * quantity = " + (double) price * quantity);
         
 
-        // TODO 6: declare a char variable and print the char and its int code
-        
+        // declare a char variable and print the char and its int code
+        char character = 'R';
+        System.out.println("Character: " + character);
+        System.out.println("Character's int value: " + (int)character);
 
-        // TODO 7:
         // Modify an existing int variable once using a unary operator (++ or --).
         // Modify it once using an augmented assignment operator (+=, -=, *=, or /=).
         // Print the value after each modification.
-        
+        a ++;
+        System.out.println("a ++ = " + a);
+        a += 2;
+        System.out.println("a +- 2 = " + a);
     }
 }

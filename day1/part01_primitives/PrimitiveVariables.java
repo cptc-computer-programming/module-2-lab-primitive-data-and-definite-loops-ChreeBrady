@@ -4,17 +4,17 @@ public class PrimitiveVariables {
 
     public static void main(String[] args) {
 
-        // TODO 1a: declare an int value and do not initialize it yet:
-        //   int a;
+        // declare an int value and do not initialize it yet:
+        int a;
 
         
-        // TODO 1b: declare and inititalize another int. Give your first int a value
-        //   a = 7
-        //   int b = 2;
+        // declare and inititalize another int. Give your first int a value
+        a = 7;
+        int b = 2;
         
 
-        // TODO 2: print integer division result (a / b) with a label
-        
+        // print integer division result (a / b) with a label
+        System.out.println("a / b = " + (a / b));
 
         // TODO 3: print double division result ((double) a / b) with a label
         
